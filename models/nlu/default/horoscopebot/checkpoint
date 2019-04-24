@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/hainh/horoscope_bot/./models/nlu/default/horoscopebot/component_5_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/home/hainh/horoscope_bot/./models/nlu/default/horoscopebot/component_5_EmbeddingIntentClassifier.ckpt"

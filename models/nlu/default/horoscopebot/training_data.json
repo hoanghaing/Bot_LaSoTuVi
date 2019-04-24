@@ -1,0 +1,41 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greeting",
+        "text": "Hello"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "I want to know my Horoscope"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Can you please tell me my horoscope?"
+      },
+      {
+        "intent": "subscription",
+        "text": "Please subscribe me"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Hey, Horoscope Today"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Hey, tell me today"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Tell me my horoscope today?"
+      },
+      {
+        "intent": "get_horoscope",
+        "text": "Bring me some new about my life"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

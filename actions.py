@@ -3,6 +3,7 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
+import horoscope as horoscope
 import requests
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
@@ -17,7 +18,7 @@ class GetTodayHoroscope(Action):
         #type: (Dispatcher, DialogueStateTracker, Domain) -> List[Event]
 
         user_horoscope_sign = tracker.get_slot('horoscope_sign')
-        base_url = http://horoscope-api.herokuapp.com/horoscope/{day}/{sign}
+        base_url = "http://horoscope-requests.api.herokuapp.com/horoscope/{day}/{sign}"
         url = base_url.format(**{'day': "today", 'sign': user_horoscope_sign})
         # http://horoscope-api.herokuapp.com/horoscope/today/capricorn
         res = requests.get(url)
